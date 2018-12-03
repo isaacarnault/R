@@ -1,6 +1,6 @@
 # Data visualization using R
 
-[![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 One program using R for data visualization.<br>
 This gist helps you learn how to create a dataset from end-to-end in `.csv`, reading that file with `R Studio` and performing some data analysis and vizualization on it.
@@ -74,7 +74,7 @@ You can still use `Jupyter Notebook` on remote sites to perform same operations 
 
 ## Versioning
 
-I used no vesioning system for this gist. My gist gist's <b>repos status</b> is flagged as <b>concept</b> because it is intended to be a demo or POC (proof-of-concept).
+I used no vesioning system for this gist. My repository's status is flagged as <b>active<b> because it has reached a stable, usable state. Original [gist](https://gist.github.com/aiPhD/16d757d8eff227ae624f1852fe1c8a91) related to this repository is pending as <b>concept<b>.
 
 ## Author
 

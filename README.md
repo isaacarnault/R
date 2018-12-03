@@ -74,7 +74,7 @@ You can still use `Jupyter Notebook` on remote sites to perform same operations 
 
 ## Versioning
 
-I used no vesioning system for this gist. My repository's status is flagged as <b>active<b> because it has reached a stable, usable state. Original [gist](https://gist.github.com/aiPhD/16d757d8eff227ae624f1852fe1c8a91) related to this repository is pending as <b>concept<b>.
+I used no vesioning system for this gist. My repository's status is flagged as <b>active</b> because it has reached a stable, usable state. Original [gist](https://gist.github.com/aiPhD/16d757d8eff227ae624f1852fe1c8a91) related to this repository is pending as <b>concept</b>.
 
 ## Author
 

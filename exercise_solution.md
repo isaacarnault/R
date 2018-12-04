@@ -1,4 +1,3 @@
-## Exercise
 * Your dataset should render as this in `RStudio`:
 
 | Id | Company | Nodes | Country | Server
@@ -24,9 +23,9 @@
 | 19 | Cornell.com | 100 | USA | NA |
 | 20 | Last.fm | 100 | USA | Nginx |
 
-<hr>
-* Your dataset should be built as this in Notepadqq or another text editor. Save file as .csv :
-
+<details><summary>see raw format</summary>
+<p>
+  
 ```python
 Id, Company, Nodes, Country, Server
 1, Yahoo.com, 42000, Usa, Ats
@@ -50,3 +49,5 @@ Id, Company, Nodes, Country, Server
 19, Cornell.com, 100, Usa, NA
 20, Last.fm, 100, USA, Nginx
 ```
+</p>
+</details>

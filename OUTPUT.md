@@ -43,6 +43,7 @@ Id, Company, Nodes, Server, Version, IP
 ```python
 # 1. Reading dataset using Jupyter Notebook
 MyData <- read.csv(file="dataset_hadoop.csv")
+MyData
 ```
 
 </p>

@@ -25,7 +25,7 @@
 | 20 | Last.fm | 100 | USA | Nginx |
 
 <hr>
-* Your dataset should be built as this in `Notepadqq` or another text editor. Save file as `.csv` :
+* Your dataset should be built as this in Notepadqq or another text editor. Save file as .csv :
 
 ```python
 Id, Company, Nodes, Country, Server

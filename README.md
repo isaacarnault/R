@@ -4,7 +4,6 @@
 
 One program using R for data visualization.<br>
 This gist helps you learn how to create a dataset from end-to-end in `.csv`, reading that file with `R Studio` and performing some data analysis and vizualization on it.
-Audience: <b>beginner</b> <b>intermediate</b>
 </hr>
 
 ## Prerequisites : the story you want to tell

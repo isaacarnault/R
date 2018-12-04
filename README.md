@@ -21,7 +21,7 @@ Steps
 - [ ] Create 20 observations (an observation is equal to a row, 20 obs = 20 rows)
 - [ ] Make sure to store data in each cell of your dataset (if you have no available data, use <b>"NA"</b>
 - [ ] Save your file in `.csv`
-- [ ] Make sure you have R Studio installed on your machine (see <b>Running the tests</b>)
+- [ ] Make sure you have `RStudio` installed on your machine (see <b>Running the tests</b>)
 - [ ] Open your file with R and vizualize it
 - [ ] Create a new `R` script, install and load the packages (refer to <b>Tips.md</b>
 - [ ] Open your `.csv` in R and explore the data (refer to <b>Tips.md</b> to know how

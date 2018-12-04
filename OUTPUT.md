@@ -193,7 +193,7 @@ layer_points(fill = ~Company)
 
 * Visualizing our dataset<br>
 
-<details><summary>plotting by IP per Nodes, diamond</summary>
+<details><summary>IP per Nodes, diamond</summary>
 <p>
   
 ```python
@@ -210,7 +210,7 @@ MyData %>%
 
 * Visualizing our dataset<br>
 
-<details><summary>plotting by IP per Nodes, triangles</summary>
+<details><summary>IP per Nodes, triangles</summary>
 <p>
   
 ```python
@@ -231,7 +231,7 @@ MyData %>%
 
 * Visualizing our dataset<br>
 
-<details><summary>plotting by Company per Nodes, histogram</summary>
+<details><summary>Company per Nodes using geom_bar</summary>
 <p>
   
 ```python
@@ -247,4 +247,24 @@ g + geom_bar(aes(fill=Nodes), width = 0.5) +
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-14.png](https://i.postimg.cc/j5wC7h7X/isaac-arnault-datavisualization-using-R-14.png)](https://postimg.cc/47GJCVw7)
+[![isaac-arnault-datavisualization-using-R-14.png](https://i.postimg.cc/KjXMJW7j/isaac-arnault-datavisualization-using-R-14.png)](https://postimg.cc/vgzTm3Nw)
+
+* Visualizing our dataset<br>
+
+<details><summary>Company per Nodes using geom_violin</summary>
+<p>
+  
+```python
+# ggplot: 1st visualization using geom_bar
+g <- ggplot(MyData, aes(Company))
+g + geom_bar(aes(fill=Nodes), width = 0.5) + 
+  theme(axis.text.x = element_text(angle=65, vjust=0.6)) + 
+  labs(title="Using ggplot - Histogram on a categorical variable", 
+       subtitle="IP Vs Nodes", 
+       caption="Author: aiPhD")
+```
+
+</p>
+</details>
+
+[![isaac-arnault-datavisualization-using-R-15.png](https://i.postimg.cc/cL56Fj0W/isaac-arnault-datavisualization-using-R-15.png)](https://postimg.cc/87M15Z7X)

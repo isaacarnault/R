@@ -1,4 +1,4 @@
-* Your dataset should render as this in `RStudio`:
+* Your dataset should render as this in `RStudio`
 
 | Id | Company | Nodes | Country | Server
 | ------------- | ------------- | ------------- | ------------- | ------------- |

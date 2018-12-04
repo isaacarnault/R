@@ -58,10 +58,7 @@ You can still use `Jupyter Notebook` on remote sites to perform same operations 
 - This dataset was created using notepadqq.<br>
 - Data is sorted by company name, number of nodes, country name, server type, server version and position in the table.<br>
 - Save the code below in .csv and read it using RStudio before you invoke vizualisation functions.<br>
-- Data are provided by various sites. Some of them are listed below:<br>
-
-[Who.is](https://who.is)<br>
-[Wiki.apache.org](https://wiki.apache.org/hadoop/PoweredBy)
+- Data are provided by various sites.Some of them are listed in <b>Tips.md</b>
 
 ## Versioning
 

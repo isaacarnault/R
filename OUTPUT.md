@@ -48,7 +48,7 @@ MyData <- read.csv(file="/home/zaki/Desktop/countries_R.csv")
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-1.png](https://i.postimg.cc/SRcdj4d7/isaac-arnault-datavisualization-using-R-1.png)](https://postimg.cc/WqbgfQQh)
+[![isaac-arnault-datavisualization-using-R-2.png](https://i.postimg.cc/q7gKGBGL/isaac-arnault-datavisualization-using-R-2.png)](https://postimg.cc/Ff51r48d)
 
 
 * Exploring our dataset<br>

@@ -75,7 +75,7 @@ Copyright 2018, Isaac Arnault<br>
 MIT License, http://www.opensource.org/licenses/mit-license.php
 
 ## Exercise
-As a project Manager, your are asked by your IT Manager to show the biggest Hadoop clusters on a world map<br>
+As a project Manager, your are asked by the Information System Manager to show the biggest Hadoop clusters on a world map<br>
 * Create your dataset by using data from this [Slideshare](https://fr.slideshare.net/chopramanish/organizations-with-largest-hadoop-clusters)
 * Consider the following range of data while extracting them from the above link: dataset = {2, 21}
 * Name the variables of your dataset Id, Company, Nodes, Country, Server

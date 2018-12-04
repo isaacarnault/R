@@ -1,6 +1,6 @@
 # Data exploration and visualization using R
 
-[![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 One program using R for data visualization.<br>
 This gist helps you learn how to create a dataset from end-to-end in `.csv`, reading that file with `R Studio` and performing some data analysis and vizualization on it.
@@ -58,11 +58,11 @@ You can still use `Jupyter Notebook` on remote sites to perform same operations 
 - This dataset was created using notepadqq.<br>
 - Data is sorted by company name, number of nodes, country name, server type, server version and position in the table.<br>
 - Save the code below in .csv and read it using RStudio before you invoke vizualisation functions.<br>
-- Data are provided by various sites.Some of them are listed in <b>Tips.md</b>
+- Data are provided by various sites. Some of them are listed in <b>Tips.md</b>
 
 ## Versioning
 
-I used no vesioning system for this gist. My repository's status is flagged as <b>active</b> because it has reached a stable, usable state. Original [gist](https://gist.github.com/aiPhD/16d757d8eff227ae624f1852fe1c8a91) related to this repository is pending as <b>concept</b>.
+I used no vesioning system for this gist. My repository's status is flagged as <b>active</b> because it has reached a stable, usable state. Original [gist](https://gist.github.com/aiPhD/f4cdef7878e88ee2bed1254a2b5fbcb5) related to this repository is pending as <b>concept</b>.
 
 ## Author
 
@@ -76,7 +76,14 @@ MIT License, http://www.opensource.org/licenses/mit-license.php
 
 ## Exercise
 As a project Manager, your are asked by your IT Manager to show the biggest Hadoop clusters on a world map<br>
-* Create a dataset of four variables (Id, Company, Nodes, Country, Server) and twenty observations
 * Create your dataset by using data from this [Slideshare](https://fr.slideshare.net/chopramanish/organizations-with-largest-hadoop-clusters)
-* Access [WhoIs](https://who.is) to find server Region of Companies and assign Nodes and Id per each Ecompany
-* Tip: you can use`ggmap` and `tidyverse` packages. Check <b>exercise_solution.md</b>.
+* Consider the following range of data while extracting them from the above link: dataset = {2, 21}
+* Name the variables of your dataset Id, Company, Nodes, Country, Server
+* Go to <b>Tips.md</b> to find sources where you can find Server name and Country
+* Assign to each Id a Company, number of Nodes, Country and Server Name
+* Read your dataset using `RStudio` or `Jupyter Notebook`
+* Use `Jupyter Notebook` to perform some exploration of your dataset
+* Use `RStudio` to perform some vizualisation of your dataset:
+  1. Install and activate ggplot2 `ggplot2` package
+  2. Use geom_dotplot function for plotting. Sort the graph by Company and by Nodes.
+* Question: How many companies use {500, 1500} nodes? Name the companies while visualizing the graph.

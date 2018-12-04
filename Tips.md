@@ -69,7 +69,7 @@ library('BoxPlot')
  ```python
 Dataset_1 <- read.csv(file="filepath/myfile.csv", header=TRUE, sep=",")
 ```
-Or you can read your file in `RStudio` if having the `.csv` hosted on a remote site<br>
+* Or you can read your file in `RStudio` if having the `.csv` hosted on a remote site<br>
 
 ```python
 Dataset_1 <- read.csv("http://fileurl/myfile.csv", header=TRUE, sep=",")

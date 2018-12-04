@@ -18,10 +18,10 @@ The following steps will help you visualize "the number of nodes in a Hadoop clu
 1. Check https://who.is for retrieving data you'll use in your dataset (e.g: search for https://last.fm)<br>
 2. Create a new file using `notepad` (I'm using `notepadqq` on Ubuntu 18.04 bionic)<br>
 3. Create a 6 column dataset<br>
-  a. Name your columns company, nodes, country, server_type, server_version, Id<br>
-  b. Create 20 observations (an observation is equal to a row, 20 obs = 20 rows)<br>
-  c. Make sure to store data in each cell of your dataset (if you have no available data, use <b>"Unknown"</b><br>
-  d. Save your file in `.csv`<br>
+  1. Name your columns company, nodes, country, server_type, server_version, Id<br>
+  2. Create 20 observations (an observation is equal to a row, 20 obs = 20 rows)<br>
+  3. Make sure to store data in each cell of your dataset (if you have no available data, use <b>"Unknown"</b><br>
+  4. Save your file in `.csv`<br>
 4. Make sure you have R Studio installed on your machine (see section Running the tests)<br>
 5. Open your file with R and vizualize it<br>
 6. Create a new `R` script, install and load the four packages we are using (refer to <b>Tips.md</b> to know how.<br>

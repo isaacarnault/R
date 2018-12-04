@@ -268,3 +268,26 @@ g + geom_bar(aes(fill=Nodes), width = 0.5) +
 </details>
 
 [![isaac-arnault-datavisualization-using-R-15.png](https://i.postimg.cc/cL56Fj0W/isaac-arnault-datavisualization-using-R-15.png)](https://postimg.cc/87M15Z7X)
+
+* Visualizing our dataset<br>
+
+<details><summary>Company per Nodes using geom_point, geom_segment</summary>
+<p>
+  
+```python
+ggplot(MyData, aes(x=IP, y=Nodes)) + 
+  geom_point(col="tomato2", size=3) + 
+  geom_segment(aes(x=IP, 
+                   xend=IP, 
+                   y=min(Nodes), 
+                   yend=max(Nodes)), 
+               linetype="dashed", 
+               size=0.1) +  
+  labs(title="Using geom_bar and geom_segment", 
+       subtitle="IP Vs Nodes")
+```
+
+</p>
+</details>
+
+[![isaac-arnault-datavisualization-using-R-16.png](https://i.postimg.cc/qRY8WLnh/isaac-arnault-datavisualization-using-R-16.png)](https://postimg.cc/S262Mcgk)

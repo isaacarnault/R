@@ -51,3 +51,22 @@ Id, Company, Nodes, Country, Server
 ```
 </p>
 </details>
+
+<details>
+<summary>See graph</summary>
+<p>  
+
+[![isaac-arnault-datavisualization-using-R-17.png](https://i.postimg.cc/j5cnHhqn/isaac-arnault-datavisualization-using-R-17.png)](https://postimg.cc/PpLqhYwd)
+
+</p>
+</details>
+
+<details>
+<summary>See answer</summary>
+<p>
+  
+```Python
+The graph shows that 4 companies use 500 to 1500 nodes: Ebay, NetSeer, Facebook, Aol.
+```
+</p>
+</details>

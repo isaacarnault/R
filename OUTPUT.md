@@ -53,6 +53,7 @@ MyData <- read.csv(file="/home/zaki/Desktop/countries_R.csv")
 ## Data Exploration
 
 * Exploring our dataset
+
 <details><summary>dim() function</summary>
 <p>
   
@@ -65,9 +66,11 @@ dim(MyData)
 
 </p>
 </details>
+
 [![isaac-arnault-datavisualization-using-R-2.png](https://i.postimg.cc/q7gKGBGL/isaac-arnault-datavisualization-using-R-2.png)](https://postimg.cc/Ff51r48d)
 
 * Exploring our dataset
+
 <details><summary>str() function</summary>
 <p>
   
@@ -84,6 +87,7 @@ str(MyData)
 [![isaac-arnault-datavisualization-using-R-4.png](https://i.postimg.cc/2jd1hBDY/isaac-arnault-datavisualization-using-R-4.png)](https://postimg.cc/bdJYjrrV)
 
 * Exploring our dataset
+
 <details><summary>summary() function</summary>
 <p>
   
@@ -100,6 +104,7 @@ summary(MyData)
 [![isaac-arnault-datavisualization-using-R-5.png](https://i.postimg.cc/yx0pYygk/isaac-arnault-datavisualization-using-R-5.png)](https://postimg.cc/D4yPxscT)
 
 * Exploring our dataset
+
 <details><summary>colnames() function</summary>
 <p>
   
@@ -116,6 +121,7 @@ colnames(MyData)
 [![isaac-arnault-datavisualization-using-R-6.png](https://i.postimg.cc/htDZcxSt/isaac-arnault-datavisualization-using-R-6.png)](https://postimg.cc/Whyw7dFB)
 
 * Exploring our dataset
+
 <details><summary>head() function</summary>
 <p>
   
@@ -133,6 +139,7 @@ head(MyData)
 
 
 * Exploring our dataset
+
 <details><summary>tail() function</summary>
 <p>
   
@@ -151,6 +158,7 @@ tail(MyData)
 ## Data Visualization
 
 * Visualizing our dataset
+
 <details><summary>basic plotting</summary>
 <p>
   
@@ -167,6 +175,7 @@ layer_points()
 [![isaac-arnault-datavisualization-using-R-9.png](https://i.postimg.cc/xCf1P6YS/isaac-arnault-datavisualization-using-R-9.png)](https://postimg.cc/Ff6vrg7P)
 
 * Visualizing our dataset
+
 <details><summary>improved plotting</summary>
 <p>
   
@@ -184,6 +193,7 @@ layer_points(fill = ~Company)
 [![isaac-arnault-datavisualization-using-R-10.png](https://i.postimg.cc/WzKpTjZ2/isaac-arnault-datavisualization-using-R-10.png)](https://postimg.cc/QKQZJ2SP)
 
 * Visualizing our dataset
+
 <details><summary>plotting by IP per Nodes, diamond</summary>
 <p>
   
@@ -200,6 +210,7 @@ MyData %>%
 [![isaac-arnault-datavisualization-using-R-11.png](https://i.postimg.cc/tT4967tq/isaac-arnault-datavisualization-using-R-11.png)](https://postimg.cc/GB60wL5V)
 
 * Visualizing our dataset
+
 <details><summary>plotting by IP per Nodes, triangles</summary>
 <p>
   

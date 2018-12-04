@@ -1,6 +1,6 @@
 Ignore below outputs if the scripts ran correctly.<br>
 
-* Creating a dataset, saving it in `.csv` and reading it with `Jupyter Notebook`</b>
+* Creating a dataset, saving it in `.csv` and reading it with `Jupyter Notebook`</b><br>
 
 <details><summary>see raw format</summary>
 <p>
@@ -32,9 +32,11 @@ Id, Company, Nodes, Server, Version, IP
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-1.png](https://i.postimg.cc/QCc1W6qZ/isaac-arnault-datavisualization-using-R-1.png)](https://postimg.cc/dZtLbjX5)
+[![isaac-arnault-datavisualization-using-R-0.png](https://i.postimg.cc/K829pqc1/isaac-arnault-datavisualization-using-R-0.png)](https://postimg.cc/CzcHz4q0)
 
-* Reading our dataset
+## Data Exploration
+
+* Reading our dataset<br>
 <details><summary>first argument</summary>
 <p>
   
@@ -48,9 +50,8 @@ MyData <- read.csv(file="/home/zaki/Desktop/countries_R.csv")
 
 [![isaac-arnault-datavisualization-using-R-1.png](https://i.postimg.cc/SRcdj4d7/isaac-arnault-datavisualization-using-R-1.png)](https://postimg.cc/WqbgfQQh)
 
-## Data Exploration
 
-* Exploring our dataset
+* Exploring our dataset<br>
 
 <details><summary>dim() function</summary>
 <p>
@@ -67,7 +68,7 @@ dim(MyData)
 
 [![isaac-arnault-datavisualization-using-R-3.png](https://i.postimg.cc/vTw6Mrwq/isaac-arnault-datavisualization-using-R-3.png)](https://postimg.cc/k6w5vt4K)
 
-* Exploring our dataset
+* Exploring our dataset<br>
 
 <details><summary>str() function</summary>
 <p>
@@ -101,7 +102,7 @@ summary(MyData)
 
 [![isaac-arnault-datavisualization-using-R-5.png](https://i.postimg.cc/yx0pYygk/isaac-arnault-datavisualization-using-R-5.png)](https://postimg.cc/D4yPxscT)
 
-* Exploring our dataset
+* Exploring our dataset<br>
 
 <details><summary>colnames() function</summary>
 <p>
@@ -118,7 +119,7 @@ colnames(MyData)
 
 [![isaac-arnault-datavisualization-using-R-6.png](https://i.postimg.cc/htDZcxSt/isaac-arnault-datavisualization-using-R-6.png)](https://postimg.cc/Whyw7dFB)
 
-* Exploring our dataset
+* Exploring our dataset<br>
 
 <details><summary>head() function</summary>
 <p>
@@ -136,7 +137,7 @@ head(MyData)
 [![isaac-arnault-datavisualization-using-R-7.png](https://i.postimg.cc/762mmnNm/isaac-arnault-datavisualization-using-R-7.png)](https://postimg.cc/xJ9vdHhz)
 
 
-* Exploring our dataset
+* Exploring our dataset<br>
 
 <details><summary>tail() function</summary>
 <p>
@@ -155,7 +156,7 @@ tail(MyData)
 
 ## Data Visualization
 
-* Visualizing our dataset
+* Visualizing our dataset<br>
 
 <details><summary>basic plotting</summary>
 <p>
@@ -172,7 +173,7 @@ layer_points()
 
 [![isaac-arnault-datavisualization-using-R-9.png](https://i.postimg.cc/xCf1P6YS/isaac-arnault-datavisualization-using-R-9.png)](https://postimg.cc/Ff6vrg7P)
 
-* Visualizing our dataset
+* Visualizing our dataset<br>
 
 <details><summary>improved plotting</summary>
 <p>
@@ -190,7 +191,7 @@ layer_points(fill = ~Company)
 
 [![isaac-arnault-datavisualization-using-R-10.png](https://i.postimg.cc/WzKpTjZ2/isaac-arnault-datavisualization-using-R-10.png)](https://postimg.cc/QKQZJ2SP)
 
-* Visualizing our dataset
+* Visualizing our dataset<br>
 
 <details><summary>plotting by IP per Nodes, diamond</summary>
 <p>
@@ -207,7 +208,7 @@ MyData %>%
 
 [![isaac-arnault-datavisualization-using-R-11.png](https://i.postimg.cc/tT4967tq/isaac-arnault-datavisualization-using-R-11.png)](https://postimg.cc/GB60wL5V)
 
-* Visualizing our dataset
+* Visualizing our dataset<br>
 
 <details><summary>plotting by IP per Nodes, triangles</summary>
 <p>
@@ -228,13 +229,13 @@ MyData %>%
 
 [![isaac-arnault-datavisualization-using-R-12.png](https://i.postimg.cc/jS6TkyMq/isaac-arnault-datavisualization-using-R-12.png)](https://postimg.cc/3kwzk0Mz)
 
-* Visualizing our dataset
+* Visualizing our dataset<br>
 
-<details><summary>plotting by IP per Nodes, triangles</summary>
+<details><summary>plotting by Company per Nodes, histogram</summary>
 <p>
   
 ```python
-# Performing 5th visualization using `.ggplot` library. Function: geom_bar.
+# ggplot: 1st visualization using geom_bar
 g <- ggplot(MyData, aes(Company))
 g + geom_bar(aes(fill=Nodes), width = 0.5) + 
   theme(axis.text.x = element_text(angle=65, vjust=0.6)) + 

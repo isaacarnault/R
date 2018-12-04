@@ -9,23 +9,23 @@ This gist helps you learn how to create a dataset from end-to-end in `.csv`, rea
 ## Prerequisites : the story you want to tell
 To implement data visualization in R programming, you should have some interest for data you use daily either in your job or at uni. Before I created this gist, I imagined how my data vizualisation could be of interest to `Hadoop` professionals on social networks since ultimately I share my gist to my Twitter and Linkedin followers. I therefore decided to find some available data related to this technology that could be interesting, to create a dataset in which I would use these data, to read this dataset using R, to perfom some analysis and cleaning operations on this dataset and to create a vizualisation chart that could tell a story about this dataset.
 
-## How to : create a data visualization in R programming
+## How to : make a data exploration and visualization using R
 The following steps will help you visualize "the number of nodes in a Hadoop cluster used by major tech companies" (the story that I want to tell). To implement what I did, you may wish to proceed as follows:
 - you can follow the below steps to understand all the steps from end-to-end
 - or you can use <b>program.rda</b> in R Studio or in your favorite workbench to check the output
-<hr>
-* Steps<br>
-1. Check https://who.is for retrieving data you'll use in your dataset (e.g: search for https://last.fm)<br>
-2. Create a new file using `notepad` (I'm using `notepadqq` on Ubuntu 18.04 bionic)<br>
-3. Create a 6 column dataset<br>
-  1. Name your columns company, nodes, country, server_type, server_version, Id<br>
-  2. Create 20 observations (an observation is equal to a row, 20 obs = 20 rows)<br>
-  3. Make sure to store data in each cell of your dataset (if you have no available data, use <b>"Unknown"</b><br>
-  4. Save your file in `.csv`<br>
-4. Make sure you have R Studio installed on your machine (see section Running the tests)<br>
-5. Open your file with R and vizualize it<br>
-6. Create a new `R` script, install and load the four packages we are using (refer to <b>Tips.md</b> to know how.<br>
-7. Open your `.csv` in R and explore the data (refer to <b>Tips.md</b> to know how.
+---
+Steps
+- [ ] Check https://who.is for retrieving data you'll use in your dataset (e.g: search for https://last.fm)
+- [ ] Open your favorite text editor
+- [ ] Name your columns company, nodes, country, server_type, server_version, Id
+- [ ] Create 20 observations (an observation is equal to a row, 20 obs = 20 rows)
+- [ ] Make sure to store data in each cell of your dataset (if you have no available data, use <b>"NA"</b>
+- [ ] Save your file in `.csv`
+- [ ] Make sure you have R Studio installed on your machine (see <b>Running the tests</b>)
+- [ ] Open your file with R and vizualize it
+- [ ] Create a new `R` script, install and load the packages (refer to <b>Tips.md</b>
+- [ ] Open your `.csv` in R and explore the data (refer to <b>Tips.md</b> to know how
+---
 
 ## Running the tests
 I am using Ubuntu (18.04 bionic).<br>

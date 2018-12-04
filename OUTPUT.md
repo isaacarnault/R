@@ -67,7 +67,7 @@ dim(MyData)
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-2.png](https://i.postimg.cc/q7gKGBGL/isaac-arnault-datavisualization-using-R-2.png)](https://postimg.cc/Ff51r48d)
+[![isaac-arnault-datavisualization-using-R-3.png](https://i.postimg.cc/vTw6Mrwq/isaac-arnault-datavisualization-using-R-3.png)](https://postimg.cc/k6w5vt4K)
 
 * Exploring our dataset
 

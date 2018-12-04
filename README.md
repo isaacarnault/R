@@ -1,6 +1,6 @@
 # Data exploration and visualization using R
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
 
 One program using R for data visualization.<br>
 This gist helps you learn how to create a dataset from end-to-end in `.csv`, reading that file with `R Studio` and performing some data analysis and vizualization on it.
@@ -58,9 +58,8 @@ You can still use `Jupyter Notebook` on remote sites to perform same operations 
 
 * [Notepadqq](https://notepadqq.com/wp/download) - A text editor - Unix/Linux
 * [R Studio](https://linuxhint.com/rstudio-for-ubuntu) - A statistical computing environment (Linux/Unix)
-* [ggvis](https://ggvis.rstudio.com/) - a data visualization package for creating histograms R
-* [ggplot2](https://ggplot2.tidyverse.org) - a famous package for plotting in `RStudio`
-* [BoxPlot](https://www.statmethods.net/graphs/boxplot.html) - a great package available in the `CRAN`
+* [ggvis](https://ggvis.rstudio.com/) - a data visualization package for creating histograms
+* [ggplot2](https://ggplot2.tidyverse.org) - a famous package for plotting in `R`
 
 - This dataset was created using notepadqq.<br>
 - Data is sorted by company name, number of nodes, country name, server type, server version and position in the table.<br>

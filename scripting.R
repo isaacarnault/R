@@ -32,6 +32,17 @@ MyData %>%
 g <- ggplot(MyData, aes(Company))
 g + geom_bar(aes(fill=Nodes), width = 0.5) + 
   theme(axis.text.x = element_text(angle=65, vjust=0.6)) + 
-  labs(title="Using ggplot - Histogram on a categorical variable", 
+  labs(title="Using geom_bar", 
        subtitle="IP Vs Nodes", 
-       caption="Author: aiPhD")
+       caption="Author: aiPhD",
+       x="Company")
+
+# ggplot: 2nd visualization using geom_violin
+g <- ggplot(MyData, aes(IP, Nodes))
+g + geom_violin(trim=FALSE, fill='#ffffff', color="black") + 
+  labs(title="Using geom_violin" , 
+       subtitle="IP Vs Nodes",
+       caption="Author: aiPhD",
+       x="IP",
+       y="Nodes")
+

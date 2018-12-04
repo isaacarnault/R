@@ -34,14 +34,14 @@ Id, Company, Nodes, Server, Version, IP
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-1.png](https://i.postimg.cc/HsJbkdSq/isaac-arnault-datavisualization-using-R-1.png)](https://postimg.cc/hfBXCWRs)
+[![isaac-arnault-datavisualization-using-R-1.png](https://i.postimg.cc/QCc1W6qZ/isaac-arnault-datavisualization-using-R-1.png)](https://postimg.cc/dZtLbjX5)
 
 * Reading our dataset
 <details><summary>first argument</summary>
 <p>
   
 ```python
-# Reading dataset using Jupyter Notebook
+# 1. Reading dataset using Jupyter Notebook
 MyData <- read.csv(file="/home/zaki/Desktop/countries_R.csv")
 ```
 
@@ -50,6 +50,8 @@ MyData <- read.csv(file="/home/zaki/Desktop/countries_R.csv")
 
 [![isaac-arnault-datavisualization-using-R-1.png](https://i.postimg.cc/SRcdj4d7/isaac-arnault-datavisualization-using-R-1.png)](https://postimg.cc/WqbgfQQh)
 
+## Data Exploration
+
 * Exploring our dataset
 <details><summary>dim() function</summary>
 <p>
@@ -57,24 +59,21 @@ MyData <- read.csv(file="/home/zaki/Desktop/countries_R.csv")
 ```python
 # 2. Showing the dimensions of the dataset by variables (columns) and observations (rows)
 MyData <- read.csv(file="dataset_hadoop.csv")
-MyData
 
 dim(MyData)
 ```
 
 </p>
 </details>
-
-[![isaac-arnault-datavisualization-using-R-2.png](https://i.postimg.cc/RFypNXB9/isaac-arnault-datavisualization-using-R-2.png)](https://postimg.cc/9RPYkP0N)
+[![isaac-arnault-datavisualization-using-R-2.png](https://i.postimg.cc/q7gKGBGL/isaac-arnault-datavisualization-using-R-2.png)](https://postimg.cc/Ff51r48d)
 
 * Exploring our dataset
 <details><summary>str() function</summary>
 <p>
   
 ```python
-# 2. Showing the structure of the dataset
+# 3. Showing the structure of the dataset
 MyData <- read.csv(file="dataset_hadoop.csv")
-MyData
 
 str(MyData)
 ```
@@ -82,14 +81,14 @@ str(MyData)
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-3.png](https://i.postimg.cc/pTp1W33q/isaac-arnault-datavisualization-using-R-3.png)](https://postimg.cc/zbYkp2zg)
+[![isaac-arnault-datavisualization-using-R-4.png](https://i.postimg.cc/2jd1hBDY/isaac-arnault-datavisualization-using-R-4.png)](https://postimg.cc/bdJYjrrV)
 
 * Exploring our dataset
 <details><summary>summary() function</summary>
 <p>
   
 ```python
-# 3 Summary statistics on the variables (columns) of our dataset
+# 4 Summary statistics on the variables (columns) of the dataset
 MyData <- read.csv(file="dataset_hadoop.csv")
 
 summary(MyData)
@@ -98,17 +97,15 @@ summary(MyData)
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-5.png](https://i.postimg.cc/RFyKcYhs/isaac-arnault-datavisualization-using-R-5.png)](https://postimg.cc/qhcNrj8y)
-
+[![isaac-arnault-datavisualization-using-R-5.png](https://i.postimg.cc/yx0pYygk/isaac-arnault-datavisualization-using-R-5.png)](https://postimg.cc/D4yPxscT)
 
 * Exploring our dataset
 <details><summary>colnames() function</summary>
 <p>
   
 ```python
-# 4 Showing the name of each variable (column) of our dataset
+# 5 Showing the name of each variable (column) of the dataset
 MyData <- read.csv(file="dataset_hadoop.csv")
-MyData
 
 colnames(MyData)
 ```
@@ -116,14 +113,14 @@ colnames(MyData)
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-6.png](https://i.postimg.cc/6Q6mS8cs/isaac-arnault-datavisualization-using-R-6.png)](https://postimg.cc/BjypPQRN)
+[![isaac-arnault-datavisualization-using-R-6.png](https://i.postimg.cc/htDZcxSt/isaac-arnault-datavisualization-using-R-6.png)](https://postimg.cc/Whyw7dFB)
 
 * Exploring our dataset
 <details><summary>head() function</summary>
 <p>
   
 ```python
-# 5  Showing the first 6 rows of our dataset
+# 6  Showing the first 6 observations (rows) of the dataset
 MyData <- read.csv(file="dataset_hadoop.csv")
 
 head(MyData)
@@ -132,7 +129,7 @@ head(MyData)
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-7.png](https://i.postimg.cc/pTzX6ck1/isaac-arnault-datavisualization-using-R-7.png)](https://postimg.cc/8JkSFH2h)
+[![isaac-arnault-datavisualization-using-R-7.png](https://i.postimg.cc/762mmnNm/isaac-arnault-datavisualization-using-R-7.png)](https://postimg.cc/xJ9vdHhz)
 
 
 * Exploring our dataset
@@ -140,7 +137,7 @@ head(MyData)
 <p>
   
 ```python
-# 6  Showing the last 6 rows of our dataset
+# 7  Showing the first 6 observations (rows) of the dataset
 MyData <- read.csv(file="dataset_hadoop.csv")
 
 tail(MyData)
@@ -149,4 +146,75 @@ tail(MyData)
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-8.png](https://i.postimg.cc/Fzvs5bBF/isaac-arnault-datavisualization-using-R-8.png)](https://postimg.cc/7GBySz4j)
+[![isaac-arnault-datavisualization-using-R-8.png](https://i.postimg.cc/XN9s5xqv/isaac-arnault-datavisualization-using-R-8.png)](https://postimg.cc/fkT7ncx4)
+
+## Data Visualization
+
+* Visualizing our dataset
+<details><summary>basic plotting</summary>
+<p>
+  
+```python
+# Performing first visualization using `.ggvis` library, using `layer_points` function.
+MyData %>% 
+  ggvis(~Server, ~Nodes) %>%
+layer_points()
+```
+
+</p>
+</details>
+
+[![isaac-arnault-datavisualization-using-R-9.png](https://i.postimg.cc/xCf1P6YS/isaac-arnault-datavisualization-using-R-9.png)](https://postimg.cc/Ff6vrg7P)
+
+* Visualizing our dataset
+<details><summary>improved plotting</summary>
+<p>
+  
+```python
+# Improving the above script by sorting the graph per Server per Nodes per Company. We call `layer_points` function.
+MyData %>% 
+  ggvis(~Server, ~Nodes) %>%
+  layer_points() %>%
+layer_points(fill = ~Company)
+```
+
+</p>
+</details>
+
+[![isaac-arnault-datavisualization-using-R-10.png](https://i.postimg.cc/WzKpTjZ2/isaac-arnault-datavisualization-using-R-10.png)](https://postimg.cc/QKQZJ2SP)
+
+* Visualizing our dataset
+<details><summary>plotting by IP per Nodes, diamond</summary>
+<p>
+  
+```python
+# Performing third visualization using `.ggvis` library. We call `layer_points` function
+MyData %>% 
+  ggvis(~IP, ~Nodes) %>% 
+  layer_points(size := 25, shape := "diamond", stroke := "red", fill := NA)
+```
+
+</p>
+</details>
+
+[![isaac-arnault-datavisualization-using-R-11.png](https://i.postimg.cc/tT4967tq/isaac-arnault-datavisualization-using-R-11.png)](https://postimg.cc/GB60wL5V)
+
+* Visualizing our dataset
+<details><summary>plotting by IP per Nodes, triangles</summary>
+<p>
+  
+```python
+# Performing fourth visualization using `.ggvis` library. We call `layer_points` function
+MyData %>%
+  ggvis(~IP, ~Nodes, stroke := "skyblue",
+        strokeOpacity := 0.5, strokeWidth := 5) %>%
+  layer_lines() %>%
+  layer_points(fill = ~Company,
+               shape := "triangle-up",
+               size := 300)
+```
+
+</p>
+</details>
+
+[![isaac-arnault-datavisualization-using-R-12.png](https://i.postimg.cc/jS6TkyMq/isaac-arnault-datavisualization-using-R-12.png)](https://postimg.cc/3kwzk0Mz)

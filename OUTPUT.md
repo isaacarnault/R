@@ -1,9 +1,8 @@
-Ignore below outputs if programs ran correctly.<br>
-If you begin in `R` using `Jupyter Notebook` these are what you should get:
+Ignore below outputs if the scripts ran correctly.<br>
 
 * Creating a dataset, saving it in `.csv` and reading it with `Jupyter Notebook`</b>
 
-<details><summary>dataset</summary>
+<details><summary>see raw format</summary>
 <p>
   
 ```python
@@ -28,7 +27,6 @@ Id, Company, Nodes, Server, Version, IP
 17, Spotify, 1650, Aginx, NA, 104
 18, Telenav, 60, CentOS, 2.4.6, 35
 19, Worldlingo, 44, Nginx, NA, 204
-20, Yahoo, 40000, Ats, NA, 98
 ```
 
 </p>
@@ -229,3 +227,23 @@ MyData %>%
 </details>
 
 [![isaac-arnault-datavisualization-using-R-12.png](https://i.postimg.cc/jS6TkyMq/isaac-arnault-datavisualization-using-R-12.png)](https://postimg.cc/3kwzk0Mz)
+
+* Visualizing our dataset
+
+<details><summary>plotting by IP per Nodes, triangles</summary>
+<p>
+  
+```python
+# Performing 5th visualization using `.ggplot` library. Function: geom_bar.
+g <- ggplot(MyData, aes(Company))
+g + geom_bar(aes(fill=Nodes), width = 0.5) + 
+  theme(axis.text.x = element_text(angle=65, vjust=0.6)) + 
+  labs(title="Using ggplot - Histogram on a categorical variable", 
+       subtitle="IP Vs Nodes", 
+       caption="Author: aiPhD")
+```
+
+</p>
+</details>
+
+[![isaac-arnault-datavisualization-using-R-14.png](https://i.postimg.cc/j5wC7h7X/isaac-arnault-datavisualization-using-R-14.png)](https://postimg.cc/47GJCVw7)

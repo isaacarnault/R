@@ -101,3 +101,8 @@ jupyter notebook
 * If you don't have R and Jupyter installed, use the following links:
 [RStudio](https://www.rstudio.com/products/rstudio/download/) - Download RStudio Desktop (Open Source Licence)
 [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) - You don't need to install it, see <b>Tips.md</b>
+
+* If you want to access or search data related to this gist and its exercise, please check:
+[Who.is](https://who.is)<br>
+[Wiki.apache.org](https://wiki.apache.org/hadoop/PoweredBy)
+[Hostingchecker.com](https://hostingchecker.com/)

@@ -23,12 +23,6 @@ The following steps will help you visualize "the number of nodes in a Hadoop clu
   3.c Make sure to store data in each cell of your dataset (if you have no available data, use <b>"Unknown"</b><br>
   3.d Save your file in `.csv`<br>
 4. Make sure you have R Studio installed on your machine (see section Running the tests)<br>
-
-<b>Important</b>
-(If you are not using Linux/Unix and still want to try this R datavisualization program:
-* use https://labs.cognitiveclass.ai (create a free account, then click on "JupyterLab" in the Build Analytics section)
-* use https://dataplatform.ibm.com (recommended for IBM Coders))
-
 5. Open your file with R and vizualize it<br>
 6. Create a new `R` script, install and load the four packages we are using (refer to <b>Tips.md</b> to know how.<br>
 7. Open your `.csv` in R and explore the data (refer to <b>Tips.md</b> to know how.

@@ -62,7 +62,6 @@ You can still use `Jupyter Notebook` on remote sites to perform same operations 
 * [ggvis](https://ggvis.rstudio.com/) - a data visualization package for creating histograms R
 * [ggplot2](https://ggplot2.tidyverse.org) - a famous package for plotting in `RStudio`
 * [BoxPlot](https://www.statmethods.net/graphs/boxplot.html) - a great package available in the `CRAN`
-* [DotPlot](https://www.statmethods.net/graphs/dot.html) - a great package available in the `CRAN`
 
 - This dataset was created using notepadqq.<br>
 - Data is sorted by company name, number of nodes, country name, server type, server version and position in the table.<br>

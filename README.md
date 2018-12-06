@@ -2,7 +2,7 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
-## Scripting in R
+## Scripting in R and Jupyter
 The following gist helps you learn how to create a dataset from end-to-end and performing some data exploration and vizualization.
 </hr>
 

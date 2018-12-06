@@ -99,8 +99,8 @@ jupyter notebook
 </details>
 
 * If you don't have R and Jupyter installed, you can still use the following links:<br>
-[RStudio](https://www.rstudio.com/products/rstudio/download/) - Download RStudio Desktop (Open Source Licence)
-[Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) - You don't need to install it, see <b>Tips.md</b>
+[RStudio](https://www.rstudio.com/products/rstudio/download/) - Download RStudio Desktop (Open Source Licence)<br>
+[Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) - You don't need to install, see <b>Tips.md</b>)
 
 * If you need to access / search data related to this gist and its exercise, please check:<br>
 [Who.is](https://who.is)<br>

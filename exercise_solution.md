@@ -1,4 +1,4 @@
-* Your dataset should render as this in `RStudio`, for dataset = {2, 21}
+* Your dataset should render as this in `RStudio` for dataset = {2, 21}.
 
 | Id | Company | Nodes | Country | Server |
 | ------------- | ------------- | ------------- | ------------- | ------------- |

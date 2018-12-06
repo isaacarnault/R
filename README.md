@@ -50,9 +50,9 @@ You can still use `Jupyter Notebook` on remote sites to perform same operations 
 
 ## Built With
 
-* [Notepadqq](https://notepadqq.com/wp/download) - A text editor - Unix/Linux
-* [R Studio](https://linuxhint.com/rstudio-for-ubuntu) - A statistical computing environment (Linux/Unix)
-* [ggvis](https://ggvis.rstudio.com/) - a data visualization package for creating histograms
+* [Notepadqq](https://notepadqq.com/wp/download) - A text editor - Linux/Unix
+* [R Studio](https://linuxhint.com/rstudio-for-ubuntu) - A statistical computing environment
+* [ggvis](https://ggvis.rstudio.com/) - a package for creating histograms
 * [ggplot2](https://ggplot2.tidyverse.org) - a famous package for plotting in `R`
 
 - This dataset was created using notepadqq.<br>

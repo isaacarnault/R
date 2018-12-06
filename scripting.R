@@ -14,7 +14,7 @@ MyData %>%
   layer_points() %>%
 layer_points(fill = ~Company))
 
-# ggvis: third visualization using layer_points, diamond shape
+# ggvis: third visualization using layer_points, shape: diamond
 MyData %>% 
   ggvis(~IP, ~Nodes) %>% 
   layer_points(size := 25, shape := "diamond", stroke := "red", fill := NA)

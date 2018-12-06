@@ -49,8 +49,7 @@ MyData
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-2.png](https://i.postimg.cc/9FHSrfGv/isaac-arnault-datavisualization-using-R-2.png)](https://postimg.cc/bdLL5pVT)
-
+[![isaac-arnault-datavisualization-using-R-2.png](https://i.postimg.cc/dtFHJxFF/isaac-arnault-datavisualization-using-R-2.png)](https://postimg.cc/Thkq9QhN)
 
 * Exploring our dataset<br>
 

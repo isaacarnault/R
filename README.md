@@ -2,8 +2,8 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
-One program using R for data visualization.<br>
-This gist helps you learn how to create a dataset from end-to-end in `.csv`, reading that file with `R Studio` and performing some data analysis and vizualization on it.
+## Scripting in R
+The following gist helps you learn how to create a dataset from end-to-end and performing some data exploration and vizualization.
 </hr>
 
 ## Prerequisites : the story you want to tell

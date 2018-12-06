@@ -81,9 +81,9 @@ As a project Manager, your are asked by the Information System Manager to use a 
 * Name the variables of your dataset Id, Company, Nodes, Country, Server
 * Go to <b>Tips.md</b> to find sources where you can find Server name and Country
 * Assign to each Id a Company, number of Nodes, Country and Server Name
-* Read your dataset using `RStudio` or `Jupyter Notebook`
-* Use `Jupyter Notebook` to perform some exploration of your dataset
-* Use `RStudio` to perform some vizualisation of your dataset:
-  1. Install and activate ggplot2 `ggplot2` package
-  2. Use geom_dotplot function for plotting. Sort the graph by Company and by Nodes.
+* Read your dataset using `RStudio` or `Jupyter`
+* Use `Jupyter` to perform some exploration of your dataset
+* Use `RStudio` to perform some visualisation of your dataset:
+  1. Install and activate ggvis and ggplot2 packages from the CRAN
+  2. Use geom_dotplot function for plotting. Sort the graph by Company per Nodes.
 * Question: How many companies use {500, 1500} nodes? Name the companies while visualizing the graph.

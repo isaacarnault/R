@@ -98,11 +98,11 @@ jupyter notebook
 </p>
 </details>
 
-* If you don't have R and Jupyter installed, use the following links:
+* If you don't have R and Jupyter installed, you can still use the following links:<br>
 [RStudio](https://www.rstudio.com/products/rstudio/download/) - Download RStudio Desktop (Open Source Licence)
 [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) - You don't need to install it, see <b>Tips.md</b>
 
-* If you want to access or search data related to this gist and its exercise, please check:
+* If you need to access / search data related to this gist and its exercise, please check:<br>
 [Who.is](https://who.is)<br>
-[Wiki.apache.org](https://wiki.apache.org/hadoop/PoweredBy)
+[Wiki.apache.org](https://wiki.apache.org/hadoop/PoweredBy) <br>
 [Hostingchecker.com](https://hostingchecker.com/)

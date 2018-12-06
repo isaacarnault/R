@@ -9,12 +9,12 @@ Id, Company, Nodes, Server, Version, IP
 8, Ebay, 532, NA, NA, 66
 9, Facebook, 1400, NA, NA, 31
 10, Infochimps, 30, Nginx, NA, 23
-11, Lastfm, 100, nginx, NA, 64
+11, Lastfm, 100, Nginx, NA, 64
 12, Mercadolibre, 20, Tengine, NA, 54
 13, Openneptune, 200, Apache, NA, 103
 14, Quantcast, 3000, Apache, NA, 34
 15, Rackspace, 30, Akamaighost, NA, 173
 16, Rakuten, 69, Akamaighost, NA, 203
-17, Spotify, 1650, Aginx, NA, 104
+17, Spotify, 1650, Nginx, NA, 104
 18, Telenav, 60, CentOS, 2.4.6, 35
 19, Worldlingo, 44, Nginx, NA, 204

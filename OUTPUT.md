@@ -18,13 +18,13 @@ Id, Company, Nodes, Server, Version, IP
 8, Ebay, 532, NA, NA, 66
 9, Facebook, 1400, NA, NA, 31
 10, Infochimps, 30, Nginx, NA, 23
-11, Lastfm, 100, nginx, NA, 64
+11, Lastfm, 100, Nginx, NA, 64
 12, Mercadolibre, 20, Tengine, NA, 54
 13, Openneptune, 200, Apache, NA, 103
 14, Quantcast, 3000, Apache, NA, 34
 15, Rackspace, 30, Akamaighost, NA, 173
 16, Rakuten, 69, Akamaighost, NA, 203
-17, Spotify, 1650, Aginx, NA, 104
+17, Spotify, 1650, Nginx, NA, 104
 18, Telenav, 60, CentOS, 2.4.6, 35
 19, Worldlingo, 44, Nginx, NA, 204
 ```
@@ -163,7 +163,7 @@ tail(MyData)
 <p>
   
 ```python
-# Performing first visualization using `.ggvis` library, using `layer_points` function.
+# ggvis: first visualization using `layer_points` function
 MyData %>% 
   ggvis(~Server, ~Nodes) %>%
 layer_points()
@@ -172,7 +172,7 @@ layer_points()
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-9.png](https://i.postimg.cc/xCf1P6YS/isaac-arnault-datavisualization-using-R-9.png)](https://postimg.cc/Ff6vrg7P)
+[![isaac-arnault-datavisualization-using-R-9.png](https://i.postimg.cc/cC9s4NP9/isaac-arnault-datavisualization-using-R-9.png)](https://postimg.cc/GTD0q6LG)
 
 * Visualizing our dataset<br>
 
@@ -180,17 +180,17 @@ layer_points()
 <p>
   
 ```python
-# Improving the above script by sorting the graph per Server per Nodes per Company. We call `layer_points` function.
+# ggvis: improving the above script by sorting the graph per Server per Nodes per Company
 MyData %>% 
   ggvis(~Server, ~Nodes) %>%
   layer_points() %>%
-layer_points(fill = ~Company)
+layer_points(fill = ~Company))
 ```
 
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-10.png](https://i.postimg.cc/WzKpTjZ2/isaac-arnault-datavisualization-using-R-10.png)](https://postimg.cc/QKQZJ2SP)
+[![isaac-arnault-datavisualization-using-R-10.png](https://i.postimg.cc/hPRFTv1L/isaac-arnault-datavisualization-using-R-10.png)](https://postimg.cc/LhD0MH75)
 
 * Visualizing our dataset<br>
 
@@ -198,7 +198,7 @@ layer_points(fill = ~Company)
 <p>
   
 ```python
-# Performing third visualization using `.ggvis` library. We call `layer_points` function
+# ggvis: third visualization using layer_points, diamond shape
 MyData %>% 
   ggvis(~IP, ~Nodes) %>% 
   layer_points(size := 25, shape := "diamond", stroke := "red", fill := NA)
@@ -207,7 +207,7 @@ MyData %>%
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-11.png](https://i.postimg.cc/tT4967tq/isaac-arnault-datavisualization-using-R-11.png)](https://postimg.cc/GB60wL5V)
+[![isaac-arnault-datavisualization-using-R-11.png](https://i.postimg.cc/MpsrPpVr/isaac-arnault-datavisualization-using-R-11.png)](https://postimg.cc/TKD9hGkr)
 
 * Visualizing our dataset<br>
 
@@ -215,7 +215,7 @@ MyData %>%
 <p>
   
 ```python
-# Performing fourth visualization using `.ggvis` library. We call `layer_points` function
+# ggvis: fourth visualization using layer_lines, layer_points, triangle shape
 MyData %>%
   ggvis(~IP, ~Nodes, stroke := "skyblue",
         strokeOpacity := 0.5, strokeWidth := 5) %>%
@@ -228,7 +228,7 @@ MyData %>%
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-12.png](https://i.postimg.cc/jS6TkyMq/isaac-arnault-datavisualization-using-R-12.png)](https://postimg.cc/3kwzk0Mz)
+[![isaac-arnault-datavisualization-using-R-12.png](https://i.postimg.cc/N03DS9Mb/isaac-arnault-datavisualization-using-R-12.png)](https://postimg.cc/4K1ph3ph)
 
 * Visualizing our dataset<br>
 
@@ -236,19 +236,19 @@ MyData %>%
 <p>
   
 ```python
-# ggplot: 1st visualization using geom_bar
+# ggplot: first visualization using geom_bar
 g <- ggplot(MyData, aes(Company))
 g + geom_bar(aes(fill=Nodes), width = 0.5) + 
   theme(axis.text.x = element_text(angle=65, vjust=0.6)) + 
-  labs(title="Using ggplot - Histogram on a categorical variable", 
+  labs(title="Using geom_bar", 
        subtitle="IP Vs Nodes", 
-       caption="Author: aiPhD")
+       caption="Author: Isaac Arnault")
 ```
 
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-14.png](https://i.postimg.cc/KjXMJW7j/isaac-arnault-datavisualization-using-R-14.png)](https://postimg.cc/vgzTm3Nw)
+[![isaac-arnault-datavisualization-using-R-14.png](https://i.postimg.cc/k5sMh8fP/isaac-arnault-datavisualization-using-R-14.png)](https://postimg.cc/CZZVRR3c)
 
 * Visualizing our dataset<br>
 
@@ -256,19 +256,20 @@ g + geom_bar(aes(fill=Nodes), width = 0.5) +
 <p>
   
 ```python
-# ggplot: 1st visualization using geom_bar
-g <- ggplot(MyData, aes(Company))
-g + geom_bar(aes(fill=Nodes), width = 0.5) + 
-  theme(axis.text.x = element_text(angle=65, vjust=0.6)) + 
-  labs(title="Using ggplot - Histogram on a categorical variable", 
-       subtitle="IP Vs Nodes", 
-       caption="Author: aiPhD")
+# ggplot: second visualization using geom_violin
+g <- ggplot(MyData, aes(IP, Nodes))
+g + geom_violin(trim=FALSE, fill='#ffffff', color="black") + 
+  labs(title="Using geom_violin" , 
+       subtitle="IP Vs Nodes",
+       caption="Author: Isaac Arnault",
+       x="IP",
+       y="Nodes")
 ```
 
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-15.png](https://i.postimg.cc/cL56Fj0W/isaac-arnault-datavisualization-using-R-15.png)](https://postimg.cc/87M15Z7X)
+[![isaac-arnault-datavisualization-using-R-15.png](https://i.postimg.cc/PqJf9JcL/isaac-arnault-datavisualization-using-R-15.png)](https://postimg.cc/gw9P6zGd)
 
 * Visualizing our dataset<br>
 
@@ -276,6 +277,7 @@ g + geom_bar(aes(fill=Nodes), width = 0.5) +
 <p>
   
 ```python
+# ggplot: third visualization using geom_point, geom segment, shape: tomato
 ggplot(MyData, aes(x=IP, y=Nodes)) + 
   geom_point(col="tomato2", size=3) + 
   geom_segment(aes(x=IP, 
@@ -284,11 +286,12 @@ ggplot(MyData, aes(x=IP, y=Nodes)) +
                    yend=max(Nodes)), 
                linetype="dashed", 
                size=0.1) +  
-  labs(title="Using geom_bar and geom_segment", 
-       subtitle="IP Vs Nodes")
+  labs(title="Using geom_points and geom_segment", 
+       subtitle="IP Vs Nodes",
+       caption="Author: Isaac Arnault")
 ```
 
 </p>
 </details>
 
-[![isaac-arnault-datavisualization-using-R-16.png](https://i.postimg.cc/qRY8WLnh/isaac-arnault-datavisualization-using-R-16.png)](https://postimg.cc/S262Mcgk)
+[![isaac-arnault-datavisualization-using-R-16.png](https://i.postimg.cc/C5sVzpXT/isaac-arnault-datavisualization-using-R-16.png)](https://postimg.cc/xN8Z4h9t)

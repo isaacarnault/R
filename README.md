@@ -75,7 +75,7 @@ Copyright 2018, Isaac Arnault<br>
 MIT License, http://www.opensource.org/licenses/mit-license.php
 
 ## Exercise
-As an IT or Big Data Project Manager, your are asked by the Information System Manager to use a dataset in order to make some presentation of one of the biggest `Hadoop` clusters in the world.<br>
+As an IT or Big Data Project Manager, your are asked by the Information System Manager to use a dataset in order to do some presentation regarding the management of `Hadoop` clusters all over the world. For your presentation, you have decided to include some metrics related to the number of nodes processed by top Internet companies and to locate the servers on which the nodes are processed by Internet Protocol address. Since some data are available in the Public Domain (on the Internet), you have decided to go for them. This excercise is only a part of a whole set of steps you'd have conducted on top of your presentation (Business understanding, Analytic approach, Data requirements / - collection /  - analysis / - preparation, - modeling). Completing this exercise could be seen as a prerequisite regarding data analysis for enterprise.<br>
 * Create your dataset by using data from this [Slideshare](https://fr.slideshare.net/chopramanish/organizations-with-largest-hadoop-clusters)
 * Consider the following range of data while extracting them from the above link: dataset = {2, 21}
 * Name the variables of your dataset Id, Company, Nodes, Country, Server

@@ -7,7 +7,7 @@ The following gist helps you learn how to create a dataset from end-to-end and p
 </hr>
 
 ## Prerequisites : the story you want to tell
-To implement data visualization in R programming, you should have some interest for data you use daily either in your job or at uni. Before I created this gist, I imagined how my data vizualisation could be of interest to `Hadoop` professionals on social networks since ultimately I share my gist to my Twitter and Linkedin followers. I therefore decided to find some available data related to this technology that could be interesting, to create a dataset in which I would use these data, to read this dataset using R, to perfom some analysis and cleaning operations on this dataset and to create a vizualisation chart that could tell a story about this dataset.
+To implement data visualization in R programming, you should have some interest for data you use daily either in your job or at uni. Before I created this gist, I imagined how my data visualization could be of interest to `Hadoop` professionals on social networks since ultimately I share my gist to my Twitter and Linkedin followers. I therefore decided to find some available data related to this technology that could be interesting, to create a dataset in which I would use these data, to read this dataset using R, to perfom some analysis and cleaning operations on this dataset and to create a vizualisation chart that could tell a story about this dataset.
 
 ## How to : make a data exploration and visualization using R
 The following steps will help you visualize "the number of nodes in a Hadoop cluster used by major tech companies" (the story that I want to tell). To implement what I did, you may wish to proceed as follows:
